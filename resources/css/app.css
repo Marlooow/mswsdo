@@ -1,0 +1,33 @@
+/* resources/css/app.css */
+
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/* Ensure consistent table column widths */
+.table-fixed {
+    table-layout: fixed;
+    width: 100%;
+}
+
+/* Apply fixed width to table columns */
+.table-fixed th, .table-fixed td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Optionally, you can adjust the width of specific columns */
+.table-fixed .name-column {
+    width: 25%; /* Adjust as needed */
+}
+
+.table-fixed .status-column {
+    width: 15%; /* Adjust as needed */
+}
+
+.table-fixed .social-worker-column {
+    width: 30%; /* Adjust as needed */
+}
+
+.table-fixed .actions-column {
+    width: 30%; /* Adjust as needed */
+}
